@@ -1,1 +1,4 @@
-Meu potfólio com alguma informação e coisas que já fiz.
+Meu potfólio com algumas aplicaçõe que já fiz e informções sobrer mim.
+
+http://jeremiaspereira.github.io/portfolio/
+
