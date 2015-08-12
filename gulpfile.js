@@ -21,7 +21,7 @@ gulp.task('browser-sync', ['site-reload'], function() {
 gulp.task('sass', function () {
   gulp.src('src/sass/*.scss')
     .pipe(sass().on('error', sass.logError))
-     //.pipe(sass({outputStyle: 'compressed'}))
+     .pipe(sass({outputStyle: 'expanded'}))
     .pipe(gulp.dest('assets/css/'));
 });
 

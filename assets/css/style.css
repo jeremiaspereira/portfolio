@@ -1,4 +1,4 @@
-article h4, .social .contact i {
+article h4 {
   padding: 0;
   margin: 0; }
 
@@ -12,8 +12,29 @@ html {
       font-size: 62.5%; } }
 
 @font-face {
-  font-family: Raleway;
-  src: url(fonts/raleway/Raleway-Regular.ttf); }
+  font-family: "Raleway";
+  src: url(fonts/raleway/Raleway-Regular.ttf);
+  font-weight: normal; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/raleway/Raleway-Light.ttf);
+  font-weight: 300; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/raleway/Raleway-Medium.ttf);
+  font-weight: 500; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/raleway/Raleway-SemiBold.ttf);
+  font-weight: 600; }
+
+@font-face {
+  font-family: "Raleway";
+  src: url(fonts/raleway/Raleway-Bold.ttf);
+  font-weight: bold; }
 
 body, input, textarea {
   font: 1.4em 'Open Sans', sans-serif;
@@ -46,12 +67,12 @@ h2 {
 h3 {
   font-size: 1.5em;
   line-height: 1.0em;
-  font-style: normal; }
+  font-weight: 500; }
 
 h4 {
   font-size: 1.1em;
   line-height: 1.5em;
-  font-style: normal; }
+  font-weight: 500; }
 
 h5 {
   font-size: 0.75em;
@@ -100,9 +121,13 @@ article h3 {
     margin: 5px;
     color: #2B2B2B; }
   .avatar h3 {
-    color: #1D1C1C; }
+    color: #014A73; }
+  .avatar h4 {
+    color: #1276BF; }
   .avatar img {
     border-radius: 100%; }
+    .avatar img:hover {
+      opacity: 0.9; }
 
 .about .tags span {
   background: #99C0F6;
@@ -138,13 +163,13 @@ article h3 {
   padding-bottom: 10px; }
   .works h4 {
     margin-bottom: 5px;
-    font-weight: 600; }
+    font-weight: bold; }
   .works ul {
     list-style: none;
     margin: 0;
     padding: 0; }
     .works ul li {
-      border-bottom: solid 1px #ddd;
+      border-bottom: solid 1px #D6D6D6;
       padding-bottom: 15px;
       margin: 15px 0; }
     .works ul li:last-child {
@@ -152,7 +177,7 @@ article h3 {
       margin: 0;
       padding-bottom: 0px; }
   .works .tags span {
-    padding: 2px 5px; }
+    padding: 2px 5px 2px 0; }
   .works .tags i {
     color: #727171; }
 
@@ -162,33 +187,59 @@ article h3 {
     padding: 10px;
     font-size: 1.5em;
     color: #fff; }
-  .social .fa-google-plus {
-    background: #D34331; }
-  .social .fa-twitter {
-    background: #1B86BC; }
-  .social .fa-flickr {
-    background: #FF0085; }
-  .social .fa-linkedin {
-    background: #1B86BC; }
-  .social .fa-instagram {
-    background: #A5664D; }
-  .social .fa-github {
-    background: #888888; }
-  .social .contact {
-    padding: 10px; }
-    .social .contact a {
-      color: #3F3F3F; }
-    .social .contact i {
-      font-size: 1em; }
-    .social .contact span {
-      padding: 0 5px;
-      display: block; }
-      @media (min-width: 768px) {
-        .social .contact span {
-          display: inline; } }
-    .social .contact .fa-envelope-o {
-      color: #000; }
-    .social .contact .fa-skype {
-      color: #00AFF0; }
-    .social .contact .fa-rss {
-      color: #FE9900; }
+
+.fa-google-plus {
+  background: #D34331; }
+  .fa-google-plus:hover {
+    background: #dc695b;
+    border-bottom: solid 3px #D34331; }
+
+.fa-twitter {
+  background: #1B86BC; }
+  .fa-twitter:hover {
+    background: #2aa3e0;
+    border-bottom: solid 3px #1B86BC; }
+
+.fa-flickr {
+  background: #FF0085; }
+  .fa-flickr:hover {
+    background: #ff339d;
+    border-bottom: solid 3px #FF0085; }
+
+.fa-linkedin {
+  background: #1B86BC; }
+  .fa-linkedin:hover {
+    background: #2aa3e0;
+    border-bottom: solid 3px #1B86BC; }
+
+.fa-instagram {
+  background: #A5664D; }
+  .fa-instagram:hover {
+    background: #ba816b;
+    border-bottom: solid 3px #A5664D; }
+
+.fa-github {
+  background: #888888; }
+  .fa-github:hover {
+    background: #a2a2a2;
+    border-bottom: solid 3px #888888; }
+
+.contact {
+  padding: 10px; }
+  .contact a {
+    color: #3F3F3F; }
+  .contact i {
+    font-size: 1em;
+    padding: 2px; }
+  .contact span {
+    padding: 0 5px;
+    display: block; }
+    @media (min-width: 768px) {
+      .contact span {
+        display: inline; } }
+  .contact .fa-envelope-o {
+    color: #000; }
+  .contact .fa-skype {
+    color: #00AFF0; }
+  .contact .fa-rss {
+    color: #FE9900; }
