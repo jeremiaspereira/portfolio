@@ -86,7 +86,7 @@ hr.accent {
   margin: 10px 0; }
 
 article h3 {
-  color: #41AAAE; }
+  color: #2A9E79; }
 
 .main {
   max-width: 900px;
@@ -99,6 +99,8 @@ article h3 {
   .avatar h3, .avatar h4 {
     margin: 5px;
     color: #2B2B2B; }
+  .avatar h3 {
+    color: #1D1C1C; }
   .avatar img {
     border-radius: 100%; }
 
@@ -143,10 +145,12 @@ article h3 {
     padding: 0; }
     .works ul li {
       border-bottom: solid 1px #ddd;
-      padding: 10px 0;
-      margin-top: 5px; }
+      padding-bottom: 15px;
+      margin: 15px 0; }
     .works ul li:last-child {
-      border: none; }
+      border: none;
+      margin: 0;
+      padding-bottom: 0px; }
   .works .tags span {
     padding: 2px 5px; }
   .works .tags i {
