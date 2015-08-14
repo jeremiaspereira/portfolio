@@ -191,6 +191,17 @@ article{
   }
 }
 
+.img{
+  background:url("../img/avatar.png");
+  width:120px;
+  height:120px;
+  border-radius:100%;
+  margin:auto;
+  &:hover{
+    background:url("../img/avatar2.png");
+  }
+}
+
 .about{
   .tags span{
     background: #99C0F6;
