@@ -192,13 +192,13 @@ article{
 }
 
 .img{
-  background:url("../img/avatar.png");
-  width:120px;
-  height:120px;
+  background:url("../img/avatar2.png");
+  width:150px;
+  height:150px;
   border-radius:100%;
   margin:auto;
   &:hover{
-    background:url("../img/avatar2.png");
+    background:url("../img/avatar.png");
   }
 }
 
